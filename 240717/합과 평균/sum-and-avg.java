@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum = a + b;
-        double avrg = sum / 2.0;
+        double avrg = (double)sum / 2;
         System.out.printf("%d %.1f", sum, avrg);
     }
 }
