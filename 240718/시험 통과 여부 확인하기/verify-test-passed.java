@@ -8,13 +8,7 @@ public class Main {
             System.out.print("pass");
         }
         else {
-            int n = 0;
-            while (score == 80) {
-                n ++;
-                score ++;
-            }
-            System.out.printf("%d more score", n);
+            System.out.printf("%d more score", 80 - score);
         }
-
     }
 }
