@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        double sum = ((double) a + (double) b) / ((double)a - (double)b);
+        double sum = ((double)(a + b)) / (a - b);
         System.out.printf("%.2f", sum);
     }
 }
