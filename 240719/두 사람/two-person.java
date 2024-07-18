@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a_age = sc.nextInt();
-        char a_gen = sc.next().charAt(0);
+        String a_gen = sc.next();
         int b_age = sc.nextInt();
-        char b_gen = sc.next().charAt(0);
+        String b_gen = sc.next();
 
-        if ((a_age >= 19 || b_age >= 19) && (a_gen.equls('M') || b_gen.equls('M'))
+        if ((a_age >= 19 || b_age >= 19) && (a_gen.equals("M") || b_gen.equals("M")))
             System.out.print('1');
         else
             System.out.print('0');
