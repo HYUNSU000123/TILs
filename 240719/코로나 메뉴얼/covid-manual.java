@@ -47,8 +47,6 @@ public class Main {
         if (result3.equals("A"))
             n++;
 
-        System.out.println(n);
-
         if (n >= 2) {
             System.out.print("E");
         }
