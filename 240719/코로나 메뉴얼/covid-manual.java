@@ -22,7 +22,7 @@ public class Main {
             result1 = "C";
         }
 
-        if (bTmp.equals("Y") && aBdy >= 37) {
+        if (bTmp.equals("Y") && bBdy >= 37) {
             result2 = "A";
         } else if (bTmp.equals("N") && bBdy >= 37) {
             result2 = "B";
@@ -46,6 +46,8 @@ public class Main {
             n++;
         if (result3.equals("A"))
             n++;
+
+        System.out.println(n);
 
         if (n >= 2) {
             System.out.print("E");
