@@ -7,7 +7,7 @@ public class Main {
         if (tmp < 0) {
             System.out.print("ice");
         }
-        else if (tmp > 100) {
+        else if (tmp >= 100) {
             System.out.print("vapor");
         }
         else {
