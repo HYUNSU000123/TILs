@@ -8,7 +8,7 @@ public class Main {
         int b_age = sc.nextInt();
         char b_gen = sc.next().charAt(0);
 
-        if ((a_age >= 19 || b_age >= 19) && (a_gen == 'M' || b_gen == 'M'))
+        if ((a_age >= 19 || b_age >= 19) && (a_gen.equls('M') || b_gen.equls('M'))
             System.out.print('1');
         else
             System.out.print('0');
