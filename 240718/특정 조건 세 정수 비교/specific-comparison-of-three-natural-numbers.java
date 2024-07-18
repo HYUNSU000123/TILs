@@ -9,7 +9,6 @@ public class Main {
         int c = sc.nextInt();
 
         int low = (a <= b && a <= c) ? a : (b <= a && b <= c) ? b : c;
-        System.out.print(low);
 
         if (a == low)
             System.out.print("1 ");
