@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int max = (a > b ? a : (b > a && b > c) ? b : c);
+        int max = ((a > b && a > c) ? a : (b > a && b > c) ? b : c);
 
         System.out.print(max);
     }
